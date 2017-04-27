@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Primary theme color of the app (sets background color of app bar) -->
+    <color name="colorPrimary">#EBEFBF</color>
+    <color name="colorPrimaryDark">#0091ea</color>
+
+    <!-- Background color of buttons in the app -->
+    <color name="colorButtonNormal">#EBEFBF</color>
+
+    <!-- Scroll-View color background -->
+    <color name="colorScrollBackground">#DFF5FC</color>
+
+    <!-- Text-View-One text color -->
+    <color name="colorTextVieOne">#616161</color>
+
+    <!-- Text-View-Two text color -->
+    <color name="colorTextViewTwo">#000000</color>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view"
+    tools:context="com.example.user.scorekeeper.MainActivity">
+
+<LinearLayout
+    style="@style/linear_layout_main">
+
+    <LinearLayout
+        style="@style/linear_layout_one">
+
+        <LinearLayout
+            style="@style/linear_layout_two">
+
+            <ImageView
+                android:src="@drawable/federer"
+                style="@style/image_view"/>
+
+            <TextView
+                android:text="@string/federer"
+                style="@style/text_view_one" />
+
+            <TextView
+                android:id="@+id/fed_score"
+                android:text="@string/fed_score"
+                style="@style/text_view_two"/>
+
+            <Button
+                android:text="@string/fed_ace"
+                android:onClick="addAceForFed"
+                style="@style/button"/>
+
+            <Button
+                android:text="@string/fed_forehand"
+                android:onClick="addForehandForFed"
+                style="@style/button"/>
+
+            <Button
+                android:text="@string/fed_backhand"
+                android:onClick="addBackhandForFed"
+                style="@style/button"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_divide"/>
+
+        <LinearLayout
+            style="@style/linear_layout_two">
+
+            <ImageView
+                android:src="@drawable/dimitrov"
+                style="@style/image_view"/>
+
+            <TextView
+                android:text="@string/dimitrov"
+                style="@style/text_view_one" />
+
+            <TextView
+                android:id="@+id/dim_score"
+                android:text="@string/dim_score"
+                style="@style/text_view_two" />
+
+            <Button
+                android:text="@string/dim_ace"
+                android:onClick="addAceForDim"
+                style="@style/button"/>
+
+            <Button
+                android:text="@string/dim_forehand"
+                android:onClick="addForehandForDim"
+                style="@style/button" />
+
+            <Button
+                android:text="@string/dim_backhand"
+                android:onClick="addBackhandForDim"
+                style="@style/button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/reset"
+        android:onClick="resetScore"
+        style="@style/button_reset" />
+
+</LinearLayout>
+
+</ScrollView>

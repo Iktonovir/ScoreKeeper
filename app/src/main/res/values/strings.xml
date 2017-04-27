@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Activity_main.xml strings -->
+    <string name="app_name">Score Keeper</string>
+
+    <!-- Federer strings -->
+    <string name="federer">Federer</string>
+
+    <string name="fed_score">0</string>
+
+    <string name="fed_ace">Ace</string>
+
+    <string name="fed_forehand">Forehand Winner</string>
+
+    <string name="fed_backhand">Backhand Winner</string>
+
+    <!-- Dimitrov strings -->
+    <string name="dimitrov">Dimitrov</string>
+
+    <string name="dim_score">0</string>
+
+    <string name="dim_ace">Ace</string>
+
+    <string name="dim_forehand">Forehand Winner</string>
+
+    <string name="dim_backhand">Backhand Winner</string>
+
+    <!-- Reset string -->
+    <string name="reset">Reset</string>
+
+</resources>
