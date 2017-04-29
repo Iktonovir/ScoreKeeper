@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreFed = 0;
-    int scoreDim = 0;
+    int scoreFed;
+    int scoreDim;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,32 +16,32 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void addAceForFed (View v){
+    public void addAceForFed(View v) {
         scoreFed = scoreFed + 1;
         displayForFed(scoreFed);
     }
 
-    public void addForehandForFed (View v) {
+    public void addForehandForFed(View v) {
         scoreFed = scoreFed + 1;
         displayForFed(scoreFed);
     }
 
-    public void addBackhandForFed (View v) {
+    public void addBackhandForFed(View v) {
         scoreFed = scoreFed + 1;
         displayForFed(scoreFed);
     }
 
-    public void addAceForDim (View v){
+    public void addAceForDim(View v) {
         scoreDim = scoreDim + 1;
         displayForDim(scoreDim);
     }
 
-    public void addForehandForDim (View v) {
+    public void addForehandForDim(View v) {
         scoreDim = scoreDim + 1;
         displayForDim(scoreDim);
     }
 
-    public void addBackhandForDim (View v) {
+    public void addBackhandForDim(View v) {
         scoreDim = scoreDim + 1;
         displayForDim(scoreDim);
     }
@@ -49,12 +49,13 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Resets the score for both players.
      */
-    public void resetScore (View v){
+    public void resetScore(View v) {
         scoreFed = 0;
         scoreDim = 0;
         displayForFed(scoreFed);
         displayForDim(scoreDim);
     }
+
     /**
      * Displays the given score for Federer.
      */
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.fed_score);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Displays the given score for Dimitrov.
      */
@@ -70,4 +72,3 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 }
-
